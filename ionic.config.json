@@ -1,5 +1,7 @@
 {
   "name": "ismart",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

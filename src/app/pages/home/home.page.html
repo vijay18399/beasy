@@ -1,0 +1,139 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-avatar slot="start" class="contact-avatar">
+      <img src="https://image.flaticon.com/icons/svg/753/753354.svg" />
+    </ion-avatar>
+    <ion-title>
+      <ion-label>
+        <h2>New</h2>
+      </ion-label>
+    </ion-title>
+    <ion-buttons slot="end">
+
+      <ion-button  href="/add-organization" >
+        <ion-icon slot="icon-only" name="add"></ion-icon>
+      </ion-button>
+
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+      <ion-card>
+        <ion-row id="balance">
+          <ion-col>
+            <ion-title class="green">$10</ion-title>
+            <ion-title class="subtitle">you will give</ion-title>
+          </ion-col>
+          <ion-col>
+            <ion-title class="red" >$10</ion-title>
+            <ion-title class="subtitle">you will take</ion-title>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-title>Business</ion-title>
+        <ion-title class="subtitle">Run your business with a variety of apps</ion-title>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div href="/add-customer" >
+
+          <img class="app" src="https://image.flaticon.com/icons/svg/921/921359.svg" />
+
+          <h6>Add Customer</h6>
+
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+
+          <img class="app" src="https://image.flaticon.com/icons/svg/3102/3102660.svg" />
+
+          <h6>Deposit</h6>
+
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+
+          <img class="app" src="https://image.flaticon.com/icons/svg/2146/2146261.svg" />
+
+          <h6>Withdraw</h6>
+
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+
+          <img class="app" src="https://image.flaticon.com/icons/svg/1256/1256650.svg" />
+
+          <h6>Customers</h6>
+
+        </div>
+      </ion-col>
+
+
+
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div>
+
+          <img class="app" src="https://image.flaticon.com/icons/svg/3102/3102349.svg" />
+
+          <h6>Reports</h6>
+
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+
+          <img class="app" src="https://image.flaticon.com/icons/svg/914/914846.svg" />
+
+          <h6>Invoice</h6>
+
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+
+          <img class="app" src="https://image.flaticon.com/icons/svg/2942/2942322.svg" />
+
+          <h6>Products</h6>
+
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+
+          <img class="app" src="https://image.flaticon.com/icons/svg/1976/1976272.svg" />
+
+          <h6>B Web</h6>
+
+        </div>
+      </ion-col>
+
+
+
+    </ion-row>
+  </ion-grid>
+
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button color="light">
+      <ion-icon (click)="go()" name="person-add-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
